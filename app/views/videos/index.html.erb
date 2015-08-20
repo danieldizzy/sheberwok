@@ -3,14 +3,14 @@
 <h1>Listing Videos</h1>
 
 <%= link_to new_video_path, :class => 'btn-floating btn-large waves-effect waves-light red' do %>
-  <i class="mdi-content-add"></i>
+  <i class="mdi-content-add "></i>
 <% end %>
 
 <ul class="collapsible" data-collapsible="accordion">
   <% @videos.each do |video| %>
     <li>
 
-    <div class="collapsible-header">
+    <div class="collapsible-header ">
       <i class="mdi-av-my-library-books"></i>
         <%= link_to video.title, video %>
         <span class="right">
